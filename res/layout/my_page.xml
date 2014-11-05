@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+  <LinearLayout android:orientation="horizontal"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent">
+      <ImageView android:src="@drawable/my_head"
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"/>
+      <Button android:text="账户信息"
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:background="@null"/>
+  </LinearLayout>  
+ <LinearLayout android:orientation="horizontal"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent">
+      <ImageView android:src="@drawable/my_favorites"
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"/>
+      <Button android:text="我的收藏"
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:background="@null"/>
+  </LinearLayout> 
+   <LinearLayout android:orientation="horizontal"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent">
+      <ImageView android:src="@drawable/my_download"
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"/>
+      <Button android:text="我的下载"
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:background="@null"/>
+  </LinearLayout> 
+   <LinearLayout android:orientation="horizontal"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent">
+      <ImageView android:src="@drawable/my_history"
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"/>
+      <Button android:text="我播放记录"
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:background="@null"/>
+  </LinearLayout> 
+   <LinearLayout android:orientation="horizontal"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent">
+      <ImageView android:src="@drawable/my_setting"
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"/>
+      <Button android:text="设置"
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:background="@null"/>
+  </LinearLayout> 
+  
+</LinearLayout>
