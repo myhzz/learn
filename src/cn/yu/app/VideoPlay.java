@@ -43,7 +43,7 @@ public class VideoPlay extends Activity implements OnInfoListener, OnBufferingUp
    * TODO: Set the path variable to a streaming video URL or a local media file
    * path.
    */
-  private String path = "http://devimages.apple.com/iphone/samples/bipbop/bipbopall.m3u8";
+  private String path = "http://baidu.ku6.com/watch/7360712458257603220.html";//url
   private Uri uri;
   private VideoView mVideoView;
   private ProgressBar pb;

@@ -11,17 +11,17 @@ import cn.yu.app.R;
 import cn.yu.app.R.id;
 import cn.yu.app.R.layout;
 import fragement.MainActivity;
-public class GoodA extends Activity {
-//	private FragmentManager fm = getSupportFragmentManager();
-//	private FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+public class GoodA extends FragmentActivity {
+	private FragmentManager fm = getSupportFragmentManager();
+	private FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
 
 	@Override
 	protected void onCreate(Bundle arg0) {
 		// TODO Auto-generated method stub
 		super.onCreate(arg0);
 		setContentView(R.layout.activity_main_page);
-//		fragmentTransaction.replace(R.id.fragmentmain, new MainActivity());
-//		fragmentTransaction.commit();
+		fragmentTransaction.replace(R.id.fragmentmain, new MainActivity());
+		fragmentTransaction.commit();
 	}
 
 }

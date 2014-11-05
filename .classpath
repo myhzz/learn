@@ -4,9 +4,8 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="src" path="/appcompat_v7"/>
-	<classpathentry kind="lib" path="C:/Users/hzz/Desktop/android-support-v4.jar"/>
-	<classpathentry kind="src" path="/InitActivity"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="D:/单机游戏/adt运行环境/爱学/libs/android-support-v4.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

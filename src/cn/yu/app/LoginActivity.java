@@ -27,43 +27,45 @@ public class LoginActivity extends Activity{
 					@Override
 					public void run() {
 						// TODO Auto-generated method stub
-////						if(login_ed_count.getText().toString().equals("")||login_ed_pass.getText().equals(""))
-//						{
-//							runOnUiThread(new Runnable() {
-//								
-//								@Override
-//								public void run() {
-//									// TODO Auto-generated method stub
-//									Toast.makeText(LoginActivity.this, "请核实信息", 0).show();
-//								}
-//							});
-//							
-//						}
-//						else
-//						{
+						if(login_ed_count.getText().toString().equals("")||login_ed_pass.getText().equals(""))
+						{
+							runOnUiThread(new Runnable() {
+								
+								@Override
+								public void run() {
+									// TODO Auto-generated method stub
+									Toast.makeText(LoginActivity.this, "请核实信息", 0).show();
+								}
+							});
+							
+						}
+						else
+						{
 //						String resulst=LoginServer.LoginbyGet(login_ed_count.getText().toString(), login_ed_pass.getText().toString());
 //				         
 //						if(resulst.equals("login success"))
-//						{
-//							runOnUiThread(new Runnable() {
-//								
-//								@Override
-//								public void run() {
-									// TODO Auto-generated method stub
-									startActivity(new Intent(LoginActivity.this,VideoPlay.class));//登陆成功跳转到下一个界面
+					if(login_ed_count.getText().toString().equals("123"))//测试代码
+						{
+							runOnUiThread(new Runnable() {
+								
+								@Override
+								public void run() {
 									
-//								}
-//							});
-//						}
-//						else {
-//							runOnUiThread(new  Runnable() {
-//								public void run() {
-//									Toast.makeText(LoginActivity.this, "密码或账号错误", 0).show();
-//								}
-//							});
-//						}
+									startActivity(new Intent(LoginActivity.this,MainPageActivity.class));//登陆成功跳转到下一个界面
+									
+								}
+							});
 						}
-//					}
+						else {
+							runOnUiThread(new  Runnable() {
+								public void run() {
+									
+									Toast.makeText(LoginActivity.this, "密码或账号错误", 0).show();
+								}
+							});
+						}
+						}
+					}
 				}).start();
 			}
 		});

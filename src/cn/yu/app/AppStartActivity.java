@@ -23,13 +23,13 @@ public class AppStartActivity extends Activity {
 			
 			@Override
 			public void run() {
-//				if(NetworkUtil.getNetworkState(AppStartActivity.this) != NetworkUtil.NONE) {
+				if(NetworkUtil.getNetworkState(AppStartActivity.this) != NetworkUtil.NONE) {
 					Intent intent = null;
 					intent = new Intent(AppStartActivity.this, LoginActivity.class);
 					startActivity(intent);
 					AppStartActivity.this.finish();
-//				} else
-//					ToastUtil.showShortToast(AppStartActivity.this, "没有网络");
+				} else
+					ToastUtil.showShortToast(AppStartActivity.this, "没有网络");
 			}
 		}, 2000);
 	}
